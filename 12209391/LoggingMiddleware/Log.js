@@ -1,5 +1,3 @@
-
-
 export function Log(stack, level, pkg, message, data = null) {
   const log = {
     timestamp: new Date().toISOString(),
